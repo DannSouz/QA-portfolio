@@ -82,3 +82,6 @@ A estratégia e os tipos de testes utilizados dependem do sistema, dos riscos e 
 
 ### 7. Ausência de defeitos é uma falácia
 Mesmo um sistema com poucos ou nenhum defeito conhecido pode não atender às necessidades dos usuários.
+
+
+XOXO
