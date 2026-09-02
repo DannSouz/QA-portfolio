@@ -22,3 +22,13 @@ registro de defeitos, evidências e projetos práticos.
 
 Este portfólio será atualizado conforme avanço nos estudos
 e projetos práticos de QA.
+
+## 📚 Conteúdos do portfólio
+
+- [x] Fundamentos de Testes
+- [ ] Cenários e Casos de Teste
+- [ ] Técnicas de Projeto de Teste
+- [ ] Execução de Testes
+- [ ] Bug Reports
+- [ ] Evidências
+- [ ] Relatórios de Teste
