@@ -59,3 +59,26 @@ Avalia se o produto atende às necessidades dos usuários.
 Pergunta principal:
 
 **Estamos construindo o produto certo?**
+
+## 7 Princípios de Teste
+
+### 1. Testes mostram a presença de defeitos
+Os testes podem revelar defeitos, mas não conseguem provar que o sistema está completamente livre deles.
+
+### 2. Testes exaustivos são impossíveis
+Testar todas as combinações e possibilidades geralmente não é viável, sendo necessário priorizar os testes.
+
+### 3. Testar cedo economiza tempo e dinheiro
+Defeitos identificados nas etapas iniciais tendem a gerar menos retrabalho e custos.
+
+### 4. Defeitos se agrupam
+Uma quantidade relativamente pequena de componentes pode concentrar grande parte dos defeitos encontrados.
+
+### 5. Paradoxo do pesticida
+Executar repetidamente os mesmos testes pode diminuir sua capacidade de encontrar novos defeitos.
+
+### 6. Testes dependem do contexto
+A estratégia e os tipos de testes utilizados dependem do sistema, dos riscos e dos objetivos.
+
+### 7. Ausência de defeitos é uma falácia
+Mesmo um sistema com poucos ou nenhum defeito conhecido pode não atender às necessidades dos usuários.
