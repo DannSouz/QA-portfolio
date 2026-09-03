@@ -37,20 +37,4 @@ Compras com valor igual ou superior a R$ 200,00 devem receber frete grátis.
 
 **Verificação**, pois o comportamento observado está sendo comparado diretamente com um requisito especificado.
 
-## Aprendizados da análise de requisitos
 
-Durante a análise de uma funcionalidade de login, identifiquei a
-importância de verificar se os requisitos possuem informações
-suficientes antes da execução dos testes.
-
-Alguns pontos que podem exigir esclarecimento incluem:
-
-- critérios utilizados para considerar um e-mail válido;
-- regras de composição e tamanho da senha;
-- comportamento do contador de tentativas de login;
-- comportamento esperado durante o período de bloqueio;
-- mensagens apresentadas ao usuário.
-
-Também observei que um comportamento inesperado deve ser
-investigado e reproduzido antes de concluir a existência e a
-causa de um defeito.
