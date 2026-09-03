@@ -1,0 +1,64 @@
+## Exercício prático — Análise de requisitos de uma funcionalidade de login
+
+### Contexto
+
+Como exercício prático, foi apresentada uma funcionalidade fictícia de login com o objetivo de analisar os requisitos antes da elaboração e execução de testes.
+
+A proposta do exercício foi identificar possíveis cenários de teste, observar informações ausentes ou ambíguas nos requisitos e avaliar 
+se havia informações suficientes para determinar o comportamento esperado do sistema.
+
+### Requisitos apresentados
+
+A funcionalidade possuía os seguintes requisitos:
+
+**E-mail**
+- Campo obrigatório;
+- Deve possuir um endereço de e-mail válido.
+
+**Senha**
+- Campo obrigatório;
+- Deve possuir no mínimo 8 caracteres.
+
+**Login**
+- Credenciais válidas devem direcionar o usuário para a página inicial;
+- E-mail ou senha incorretos devem apresentar a mensagem "E-mail ou senha incorretos".
+
+**Segurança**
+- Após 5 tentativas consecutivas com senha incorreta, a conta deve ser bloqueada por 30 minutos;
+- Após o período de bloqueio, o usuário pode realizar uma nova tentativa de login.
+
+### Análise dos requisitos
+
+Durante a análise, identifiquei alguns pontos que precisariam de maior esclarecimento antes da execução de determinados testes:
+
+- Quais critérios determinam um endereço de e-mail válido?
+- Existe alguma restrição de domínio para o e-mail?
+- Quais tipos de caracteres são permitidos na senha?
+- Existe um tamanho máximo para a senha?
+- Apenas tentativas com senha incorreta são contabilizadas para o bloqueio?
+- Uma autenticação bem-sucedida reinicia o contador de tentativas incorretas?
+- O que acontece quando o usuário tenta acessar a conta durante os 30 minutos de bloqueio?
+- Existe uma mensagem específica informando que a conta está bloqueada?
+- O tempo restante de bloqueio é apresentado ao usuário?
+
+### Análise de uma possível falha
+
+Durante o exercício, foi apresentado o seguinte comportamento:
+
+1. O usuário realizou cinco tentativas consecutivas utilizando uma senha incorreta;
+2. Em seguida, realizou uma sexta tentativa utilizando a senha correta;
+3. O sistema permitiu o login.
+
+Inicialmente, esse comportamento poderia indicar uma falha na regra de bloqueio. Entretanto, não havia informação sobre quanto tempo havia transcorrido entre a quinta e a sexta tentativa.
+
+Se a sexta tentativa tivesse ocorrido antes dos 30 minutos, o comportamento estaria em desacordo com o requisito. Caso tivesse ocorrido após os 30 minutos, o comportamento estaria correto.
+
+Por isso, não seria possível concluir imediatamente que existia uma falha. Seria necessário reproduzir o cenário de forma controlada, 
+registrando o intervalo entre as tentativas e comparando o resultado observado com o requisito.
+
+### Aprendizados
+
+Este exercício demonstrou a importância de não iniciar os testes considerando que todos os requisitos estão necessariamente completos ou claros.
+
+A análise dos requisitos também faz parte do processo de testes, pois ambiguidades e informações ausentes podem dificultar a definição do resultado esperado.
+
