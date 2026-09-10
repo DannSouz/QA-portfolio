@@ -29,7 +29,7 @@ Neste projeto, trabalhei com:
 - 🌷 evidências de execução
 - 🌷 classificação de status PASS e FAIL
 
-O documento completo reúne três casos de teste de cadastro. :contentReference[oaicite:0]{index=0}
+O documento completo reúne três casos de teste de cadastro.
 
 ---
 
@@ -41,7 +41,7 @@ Objetivo: verificar se o usuário consegue criar uma conta preenchendo corretame
 
 **Resultado:** ✅ PASS
 
-A conta foi criada com sucesso, o número da conta foi exibido e o saldo inicial de R$ 1.000,00 foi apresentado conforme esperado. :contentReference[oaicite:1]{index=1}
+A conta foi criada com sucesso, o número da conta foi exibido e o saldo inicial de R$ 1.000,00 foi apresentado conforme esperado.
 
 ---
 
@@ -59,8 +59,7 @@ enquanto o requisito previa:
 
 > “Email não pode ser vazio”
 
-Por isso, o caso foi marcado como FAIL devido à divergência entre o comportamento esperado e o resultado obtido. :contentReference[oaicite:2]{index=2}
-
+Por isso, o caso foi marcado como FAIL devido à divergência entre o comportamento esperado e o resultado obtido.
 ---
 
 ### 🌸 CT03 — Cadastro com e-mail em formato inválido
@@ -69,7 +68,7 @@ Objetivo: avaliar se o campo de e-mail identifica um formato inválido antes de 
 
 **Resultado:** ✅ PASS
 
-O sistema identificou o formato inválido, bloqueou o envio do formulário e nenhuma conta foi criada. :contentReference[oaicite:3]{index=3}
+O sistema identificou o formato inválido, bloqueou o envio do formulário e nenhuma conta foi criada. 
 
 ---
 
