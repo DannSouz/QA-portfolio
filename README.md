@@ -56,7 +56,7 @@ Neste projeto foram trabalhados:
 - evidências de execução
 - status PASS e FAIL
 
-📁 `bug-bank/`
+📁 `02-casos-de-teste/bug-bank/`
 
 ---
 
