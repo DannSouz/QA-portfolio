@@ -101,7 +101,7 @@ Elas mostram:
 - mensagens de validação
 - comportamento do formulário
 
-As evidências aparecem ao longo do documento, incluindo as páginas dedicadas às execuções dos casos de teste. :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+As evidências de execução estão registradas no documento completo, incluindo telas do sistema, resultados obtidos e mensagens de validação.
 
 ---
 
